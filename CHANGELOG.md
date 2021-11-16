@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/KinVen-Lee/better-learn/compare/v0.0.2...v0.0.3) (2021-11-16)
+
+
+### Bug Fixes
+
+* **app.vue:** 删除base.css引用 ([6f9b97f](https://github.com/KinVen-Lee/better-learn/commit/6f9b97f355a31256db758af8df9f98dcad671141))
+
 ### [0.0.2](https://github.com/KinVen-Lee/better-learn/compare/v0.0.1...v0.0.2) (2021-11-16)
 
 
