@@ -1,9 +1,5 @@
-<script setup lang="ts">
-import Welcome from '@/components/Welcome.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <main>
-    <Welcome />
-  </main>
+  <main>我是首页</main>
 </template>

@@ -60,7 +60,7 @@
       "eslint --fix",
       "git add"
     ],
-    "*.{vue,css,less,scss,sass}": [
+    "*.{css,less,scss,sass}": [
       "stylelint --fix  --custom-syntax postcss-html scss"
     ]
   }
