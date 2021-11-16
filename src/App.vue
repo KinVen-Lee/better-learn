@@ -13,8 +13,6 @@
 </template>
 
 <style>
-@import '@/assets/base.css';
-
 #app {
   max-width: 1280px;
   padding: 2rem;
