@@ -52,7 +52,8 @@
 </template>
 
 <script lang="ts" setup>
-import { onMounted, reactive, ref } from 'vue'
+import { reactive, ref } from 'vue'
+import { useRouter } from 'vue-router'
 // 接受组件传值
 
 // 变量定义
@@ -64,6 +65,8 @@ const loginFormData = reactive<loginFormDataData>({
   account: '',
   password: ''
 })
+const router = useRouter()
+
 const loginForm = ref<HTMLFormElement>({} as HTMLFormElement)
 
 const rules = reactive({
@@ -86,8 +89,9 @@ const rules = reactive({
 // 生命周期函数
 
 // TODO:跳转页面需要修改
-const goPage = (pagename: string) => {
-  alert(`go to ${pagename} page`)
+const goPage = (routeName: string) => {
+  alert(`go to ${routeName} page`)
+  router.push(routeName)
 }
 // 方法
 const submitForm = async () => {
@@ -106,6 +110,7 @@ const submitForm = async () => {
   })
 }
 </script>
+
 <style scoped>
 .login_page {
   height: 100%;
