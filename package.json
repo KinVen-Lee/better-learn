@@ -14,6 +14,9 @@
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^1.9.3",
+    "element-plus": "^1.2.0-beta.3",
+    "normalize.css": "^8.0.1",
+    "unplugin-vue-components": "^0.17.2",
     "vite": "^2.6.3",
     "vue": "^3.2.14",
     "vue-router": "^4.0.11",
